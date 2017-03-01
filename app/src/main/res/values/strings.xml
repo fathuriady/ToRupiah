@@ -1,5 +1,10 @@
 <resources>
     <string name="app_name">ToRupiah</string>
+    <string name="button_konversi">Konversi</string>
+    <string name="text_judul">ToRupiah</string>
+    <string name="text_matauang">Mata Uang:</string>
+    <string name="text_nominal">Nominal:</string>
+    <string name="text_rp">Rp.</string>
 
     <string-array name="matauang">
         <item>U.S. Dollar</item>

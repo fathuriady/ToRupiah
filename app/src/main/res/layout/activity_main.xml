@@ -14,7 +14,7 @@
         android:id="@+id/txtJudul"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ToRupiah"
+        android:text="@string/text_judul"
         android:layout_centerHorizontal="true"
         android:textSize="27dp"
         />
@@ -24,7 +24,7 @@
         android:layout_width="80dp"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="false"
-        android:text="Mata Uang: "
+        android:text="@string/text_matauang"
         android:textSize="15.5dp"
         android:layout_below="@+id/txtJudul"
         />
@@ -42,7 +42,7 @@
         android:layout_width="80dp"
         android:layout_height="wrap_content"
         android:textSize="18sp"
-        android:text="Nominal: "
+        android:text="@string/text_nominal"
         android:layout_below="@+id/txtMataUang"
         android:layout_marginTop="15dp"
         />
@@ -63,7 +63,7 @@
         android:id="@+id/btnKonversi"
         android:layout_width="100dp"
         android:layout_height="35dp"
-        android:text="Konversi"
+        android:text="@string/button_konversi"
         android:layout_below="@+id/edtxtNominal"
         android:layout_marginTop="10dp"
         android:layout_alignParentLeft="true"
@@ -74,7 +74,7 @@
         android:layout_width="30dp"
         android:layout_height="wrap_content"
         android:textSize="18sp"
-        android:text="Rp."
+        android:text="@string/text_rp"
         android:layout_below="@+id/btnKonversi"
         android:layout_marginTop="30dp"
         />
