@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ToRupiah</string>
+
+    <string-array name="matauang">
+        <item>U.S. Dollar</item>
+        <item>Yen</item>
+        <item>Ringgit</item>
+    </string-array>
+</resources>
