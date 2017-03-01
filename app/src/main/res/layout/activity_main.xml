@@ -31,7 +31,7 @@
 
     <Spinner
         android:id="@+id/spinner"
-        android:layout_width="170dp"
+        android:layout_width="220dp"
         android:layout_height="18dp"
         android:layout_below="@+id/txtJudul"
         android:layout_toRightOf="@+id/txtMataUang"
@@ -55,14 +55,13 @@
         android:textSize="18sp"
         android:layout_toRightOf="@+id/txtNominal"
         android:background="#EEE"
-
         android:layout_marginTop="15dp"
         />
 
     <Button
         android:id="@+id/btnKonversi"
         android:layout_width="100dp"
-        android:layout_height="35dp"
+        android:layout_height="43dp"
         android:text="@string/button_konversi"
         android:layout_below="@+id/edtxtNominal"
         android:layout_marginTop="10dp"
@@ -76,7 +75,8 @@
         android:textSize="18sp"
         android:text="@string/text_rp"
         android:layout_below="@+id/btnKonversi"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="60dp"
+
         />
 
     <TextView
@@ -86,7 +86,6 @@
         android:textSize="18sp"
         android:layout_below="@+id/btnKonversi"
         android:layout_toRightOf="@+id/txtRp"
-
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="60dp"
         />
 </RelativeLayout>
